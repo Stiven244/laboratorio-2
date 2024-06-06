@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Materialize | Carrousel y Media</title>
+
+    <!-- Fonts -->
+    <!-- <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Raleway:500,600&display=swap" rel="stylesheet"> -->
+    
+    <!-- Materialize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
+    
+    <!-- CSS Estilos -->
+    <link rel="stylesheet" href="estilosC.css">
+
+</head>
+<body>
+    
+    <nav class="menu">
+        <img src="logo.jpg" alt="Logo" class="logo"> <!-- Logo agregado -->
+        <ul class="menu">
+            <li><button class="D0" onclick="window.location.href = 'index.html'">Inicio</button></li>
+            <li><button class="D1" onclick="window.location.href = 'indexD.html'">Desayuno</button></li>
+            <li><button class="D2" onclick="window.location.href = 'indexA.html'">Almuerzo</button></li>
+            <li><button class="D3" onclick="window.location.href = 'indexC.html'">Cena</button></li>        
+        </ul>
+    </nav>
+
+    <div class="outer-container">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <h1 class="center-align titulo">¿Qué se te antoja hoy?</h1>
+
+                    <div class="carousel center-align">
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Mole</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Fácil / 20 minutos</p>
+                            <img src="cena 1.png" alt="">
+                            <button class="like-button" onclick="toggleLike(this)">❤️</button>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Paches</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Medio / 30 minutos</p>
+                            <img src="pache.jpeg" alt="">
+                            <button class="like-button" onclick="toggleLike(this)">❤️</button>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Tostadas</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Fácil / 10 minutos</p>
+                            <img src="tost.jpeg" alt="">
+                            <button class="like-button" onclick="toggleLike(this)">❤️</button>
+                        </div>
+
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Atolde elote</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Fácil / 15 minutos</p>
+                            <img src="eloty.jpeg" alt="">
+                            <button class="like-button" onclick="toggleLike(this)">❤️</button>
+                        </div>
+                        
+                        <div class="carousel-item">
+                            <h2 class="subtitulo">Atol blanco</h2>
+                            <div class="linea-division"></div>
+                            <p class="sabor">Fácil /15 minutos</p>
+                            <img src="atol.jpeg" alt="">
+                            <button class="like-button" onclick="toggleLike(this)">❤️</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <div class="box1">
+            <h2>Cenas</h2>
+        </div>
+
+        <div class="contx">
+            <div class="box2">
+                <h2 class="tamales">1. Mole</h2>
+                <p><b>Ingredientes</b> <br> 6 plátanos cortados en rodajas largas, previamente fritos. <br>
+                    2 onzas de ajonjolí tostado. <br>
+                    2 onzas de pepitoria tostada. <br>
+                    15 tomates bien maduros. <br>
+                    2 chiles pasas. <br>
+                    1 raja de canela. <br>
+                    2 champurradas. <br>
+                    8 onzas de chocolate en tableta. <br>
+                    2 onzas de ajonjolí para la decoración. <br> <br> <b>Preparación</b> <br> Rodajar los plátanos, ni muy gruesos ni muy delgados.
+                    Freír en un sartén las rodajas de plátano.
+                    En una olla, colocar los tomates ya cortados en cuatro, así mismo, los chiles pasas y la canela.
+                    Cocer a fuego lento y dejar enfriar.
+                    Retirar la cascara de los tomates.
+                    Dorar las especias, primero debe ser el ajonjolí y luego la pepitoria.
+                    Agregar los tomates, chiles pasa, canela, ajonjolí, pepitoria, y las champurradas y licuar.
+                    Verter el recado anterior en una olla de tamaño medio.
+                    Añadir las tabletas de chocolate y dejar hervir a fuego lento.
+                    Mover la mezcla constantemente hasta que el chocolate esté fundido completamente.
+                    Agregue los plátanos fritos para que absorban el sabor a la salsa y dejar enfriar.
+                    Al servir se puede decorar con ajonjolí dorado a cada plato.</p>
+                    <img src="11.mole.png" alt="">
+            </div>
+
+            <div class="box3">
+                <h2 class="rellenitos"> 2. Paches</h2>
+                <p> <b>Ingredientes</b> <br> 8 libras papa.  <br>
+                    1 taza aceite. <br>
+                    ½ libra miga pan francés frío. <br>
+                    2 libras tomate. <br>
+                    ½ libra miltomate. <br>
+                    1 cucharada pepitoria. <br>
+                    3 chiles guaque. <br>
+                    3 panes franceses. <br>
+                    Sal al gusto. <br>
+                    1 pollo. <br>
+                    3 manojos hojas para envolver. <br>
+                    Cibaque. <br> <br> <b>Preparación</b> <br> Primero, cocinar las papas en agua con sal, pelarlas después de cocinadas.
+                    Aún calientes, machacar para que quede un puré con pedazos de papa entera.
+                    Agregar manteca o aceite.
+                    Luego, incorporar miga de pan hecha a base de pan francés remojado en agua, exprimidos y molidos.
+                    Agregar el recado ya colado: asar el tomate y miltomate.
+                    Tostar la pepitoria, chile guaque y pan francés y licuar junto al tomate y miltomate.
+                    Además, agregar el miltomate disuelto en agua.
+                    Entonces, colar y cocinar.
+                    Sazonar con sal.
+                    </p>
+                    <img src="12.pache.png" alt="">
+            </div>
+
+            <div class="box4">
+                <h2 class="rellenitos"> 3. Tostadas</h2>
+                <p><b>Ingredientes</b> <br> Tortillas delgadas para freír o bien, las tostadas que venden en el supermercado  <br>
+                    Aceite de oliva <br>
+                    Perejil <br>
+                    Queso seco rayado <br>
+                    Cebolla en rodajas finas <br>
+                    Sal <br>
+                    Pimienta <br>
+                    Salsa roja, frijoles volteados o guacamol al gusto <br> <br> <b>Guacamol</b> <br> 
+                    5 aguacates  <br>
+                    ½ cebolla finamente picada <br>
+                    1 cucharadita de orégano <br>
+                    2 limones <br> <br> <b>Salsa Roja</b> <br> 1 diente de ajo  <br>
+                    6 tomates <br>
+                    1 chile dulce <br>
+                    1 cebolla <br> <br> <b>Preparación</b> <br> <b>Guacamol</b> <br> Primero, colocar la pulpa del aguacate en un recipiente hondo.
+                    Machacar el aguacate hasta hacer puré.
+                    Después, mezclar con la cebolla en pedacitos, jugo de limón y orégano.
+                    Agregar sal y pimienta al gusto. <br> <br> <b>Salsa Roja</b> <br> Poner a hervir los tomates, la cebolla, el ajo y el chile pimiento en 3 tazas de agua.
+                    Cuando estén cocidos retirar la olla del fuego y dejar enfriar.
+                    Licuar todos los ingredientes con el ajo y un poco de cilantro y pasar por un colador.
+                    En un sartén grande calentar una cucharadita de aceite, agregar la salsa, un toque de consomé de pollo y sal al gusto.
+                    Hervir y mover con una paleta hasta que se ponga espesa.</p>
+                    <img src="13.Tostadas.png" alt="">
+            </div>
+
+            <div class="box5">
+                <h2 class="torrejas"> 4. Atol de elote</h2>
+                <p><b>Ingredientes</b> <br> 2 tazas de granos de elote amarillo. <br>
+                    4 1/2 tazas de agua fría. <br>
+                    1 raja de canela. <br>
+                    1 taza de azúcar. <br>
+                    1/2 cucharadita de sal. <br> <br> <b>Preparación</b> <br> Pelar y desgranar los elotes, asegurarse de que el elote sea granudo, no tierno, luego licuarlo por pocos, con 3/4 de taza de agua, colarlo y agregar las otras 3 1/2 tazas de agua, la raja de canela y azúcar al gusto.
+                    Poner a fuego lento la mezcla y dejar hervir moviendo constantemente para que no se pegue.
+                    Cuando hierva, agregar la sal y seguir cocinando hasta que el elote esté cocido, (aproximadamente 10 minutos).
+                    Servirlo caliente rociado con canela en polvo.</p>
+                    <img src="14.Atoldeelote.png" alt="">
+            </div>
+
+            <div class="box6">
+                <h2 class="desayunotipico"> 5. Atol blanco</h2>
+                <p><b>Ingredientes</b> <br> 1 taza de masa de maíz. <br>
+                    3/4 de taza de agua. <br>
+                    1 cucharada de pepita en polvo. <br>
+                    1 cucharada de chile cobanero en polvo. <br>
+                    6 tazas de agua. <br>
+                    1 taza de frijol cocido. <br>
+                    Limón y sal al gusto. <br> <br> <b>Preparación</b> <br> Colocar la masa en una olla con 4 o 6 tazas de agua, dependiendo del espesor deseado.
+                    Poner a hervir por unos 5 minutos y moverlo constantemente para evitar que se pegue.
+                    La forma de servirlo es la siguiente: en un tazón sirva el atol caliente, agréguele granos de frijol, una cucharada de chile, una de pepitoria y sal.
+                    Por último se puede agregar limón al gusto.</p>
+                    <img src="15.Atolblanco.png" alt="">
+            </div>
+
+
+    <!-- Materialize.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <!-- JS Main -->
+    <script src="main.js"></script>
+</body>
+</html>
